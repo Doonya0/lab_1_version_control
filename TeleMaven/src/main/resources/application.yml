@@ -1,0 +1,17 @@
+bot:
+  token: 6720934736:AAEmHor09mktElFPDWZdUPLhQIDhqw6jLCY
+  username: table_time_bot
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/BotTg
+    username: postgres
+    password: 1445wrin
+    driverClassName: org.postgresql.Driver
